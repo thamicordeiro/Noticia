@@ -2,7 +2,7 @@ section header {
 border-top: 1px solid var(--stroke-color);
 padding-block: 12px 24px;
 font: var(--text-span);
-}
+
  header a {
   justify-self: end;
 
@@ -15,7 +15,7 @@ height: 16px;
   background-image: url(../assets/ícons/ArrowRight-hover.svg);
  }
  } 
-
+ }
 
 #featured {
   img {
@@ -67,7 +67,7 @@ h2 {
 img {
   height: 160px;
 }
-}
+
 
 figure {
   position: relative;
@@ -81,4 +81,6 @@ p {
   margin-top: 8px;
   font-weight: 800;
 } 
+}
+
 }
