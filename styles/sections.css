@@ -3,9 +3,10 @@ border-top: 1px solid var(--stroke-color);
 padding-block: 12px 24px;
 font: var(--text-span);
 
- header a{
+ a {
   justify-self: end;
-
+  align-items: center;
+  gap: 8px;
  span {
   background-image: url(../assets/ícons/ArrowRight.svg);
 width: 16px;
@@ -59,6 +60,7 @@ h2 {
 }
 
 #weekly {
+
 grid-area: weekly;
  &>div {
   grid-template-columns: repeat(4, 292px);
